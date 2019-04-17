@@ -1,0 +1,10 @@
+<div ng-controller="lControl">
+    <form>
+        <h1>Login Form</h1>
+        <hr>
+        <input type="text" ng-model="username" placeholder="Enter Username"><br>
+        <input type="password" ng-model="password" placeholder="Enter Password"><br><br>
+        <button type="button" ng-click="submit()">Login</button><br>
+        <span style="color:red">{{ error }}</span>
+    </form>
+</div>

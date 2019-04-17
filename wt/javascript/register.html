@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Register</title>
+	<script src="miform.js"></script>
+</head>
+<body>
+<h3>Student Registration Form</h3>
+<hr>
+<form name="regform"  action="home.html" method="POST">
+    <label>Username</label><br>
+    <input type="text" name="username" placeholder="Enter your username"><br>
+    <label>Password</label><br>
+    <input type="password" name="password" placeholder="Enter your password"><br>
+    <label>Firstname</label><br>
+    <input type="conpassword" name="conpassword" placeholder="Reenter your password"><br>
+    <label>Firstname</label><br>
+    <input type="text" name="firstname" placeholder="Enter your firstname"><br>
+    <label>Lastname</label><br>
+    <input type="text" name="lastname" placeholder="Enter your lastname"><br>
+    <label>Gender</label><br>
+    <input type="radio" name="gender" value="Male">Male
+    <input type="radio" name="gender" value="Female">Female<br>
+    <label>Email</label><br>
+    <input type="email" name="email" placeholder="Enter your email address"><br>
+    <label>Course</label><br>
+    <select name="course">
+        <option>Select Course</option>
+        <option>SE Computer</option>
+        <option>TE Computer</option>
+        <option>BE Computer</option>
+    </select><br>
+    <label>Mobile Number</label><br>
+    <input type="text" name="mobileno" placeholder="Enter your mobile number"><br>
+    <input type="submit" onclick="return misubmit();" value="submit">
+
+    <p>Already Registered? <a href="login.php">Sign In</a></p>
+</form>
+</body>
+</html>

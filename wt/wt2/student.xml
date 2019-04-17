@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-16" standalone='yes'?>
+<?xml-stylesheet type="text/xsl" href="student.xsl"?>
+<college>
+	<student>
+		<username>sumit11</username>
+		<password>111</password>
+		<firstname>sumit</firstname>
+		<lastname>patil</lastname>
+		<gender>Male</gender>
+	</student>
+	<student>
+		<username>anil12</username>
+		<password>222</password>
+		<firstname>anil</firstname>
+		<lastname>doge</lastname>
+		<gender>Male</gender>
+	</student>
+</college>
